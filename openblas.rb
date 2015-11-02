@@ -3,10 +3,8 @@ class Openblas < Formula
   url "https://github.com/xianyi/OpenBLAS/archive/v0.2.15.tar.gz"
   head "https://github.com/xianyi/OpenBLAS.git", :branch => "develop"
   sha256 "73c40ace5978282224e5e122a41c8388c5a19e65a6f2329c2b7c0b61bacc9044"
-  revision 1
 
   bottle do
-    revision 1
     sha256 "c49c869f45c87cc375c573a160dd7ee219f2c9d16ef2acdbd9d385cc0561bf5a" => :yosemite
     sha256 "668ccea63190d3a0f0cca606bc92424200076cc488c1f398149a74340dd4b82a" => :mavericks
     sha256 "a6a592b7b7378665b606e414658847c5260eeebbc6c5ae32ba699a79e7547c3d" => :mountain_lion
